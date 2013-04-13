@@ -192,7 +192,7 @@ function initUIListeners()
 		
         if (autowoot) 
 		{
-            $('#button-vote-positive').click();
+            $('#button-vote-negative').click();
         }
 		
         jaaulde.utils.cookies.set(COOKIE_WOOT, autowoot);
@@ -287,7 +287,7 @@ function djAdvanced(obj)
      */
     if (autowoot) 
 	{
-        $('#button-vote-positive').click();
+        $('#button-vote-negative').click();
     }
 
     /*
@@ -679,7 +679,7 @@ function onCookiesLoaded()
      */
     if (autowoot) 
 	{
-        $('#button-vote-positive').click();
+        $('#button-vote-negative').click();
     }
 
     /*
